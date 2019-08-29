@@ -1,5 +1,5 @@
 from PIL import Image
-
+#截图图片中的一部分
 im = Image.open("./datasets/wx_pic_cut.jpg")
 # 图片的宽度和高度
 img_size = im.size

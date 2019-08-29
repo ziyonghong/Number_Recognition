@@ -77,7 +77,7 @@ for contour in contours:
         continue
     print(mini, maxi)
     # cv2.line(origin, mini, maxi, 233, 5)
-    plt.subplot(20, 20, index + 1) #这里是干嘛的？
+    plt.subplot(20, 20, index + 1) #
     plt.xticks([])
     plt.yticks([])
     plt.xlabel('')
